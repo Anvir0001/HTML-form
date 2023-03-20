@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="register.css">
+      <style> @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+       @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Ubuntu&display=swap');
+      </style>
+    </head>
+    <body>
+        <header>
+            <marquee direction="left">!!! আমার ওয়েব পৃষ্ঠায় স্বাগতম | অনুগ্রহ করে, ফর্মটি পূরণ করুন!!! </marquee>
+            <h2>Registration Form Tutorial</h2>
+            <div>
+                <form action="https://cutt.ly/Y0DjaxO" method="get" >
+                   
+                    
+                        <fieldset>
+                            <legend>Website Authentication</legend>
+                            <div>
+
+                                <label for="userName">User Name</label>
+                                <input type="text" placeholder="User Name" id="userName" name="userName" >
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Your Email" id="email" name="email" >
+                            </div>
+                                
+                    
+                            <div>
+
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="****" id="passeword" name="password" >
+                            </div>
+                            </fieldset>
+                    
+                   
+                        <fieldset>
+                            <legend> Personal Info</legend>
+                            <div>
+
+                                <label for="firstName">First Name</label>
+                                <input type="text" placeholder="Your First Name" id="firstName" name="firstName" required>
+                                <label for="lastName">Last Name</label>
+                                <input type="text" placeholder="Your Last Name" id="lastName" name="lastName" >
+                            </div>
+                            <div>
+                                <label for="phone">Phone number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+880-1XXXXXXX" pattern="+880-[0-9]{10}" required>
+                            </div>
+                    
+                            <div>
+
+                                <label for="gender">Your Gender</label>
+                                <input type="radio" name="gender" id="gender" value="Male">Male
+                                <input type="radio" name="gender" id="gender" value="Female">Female
+                                <input type="radio" name="gender" id="gender" value="Others">Others
+                            </div>
+                                <div>
+
+                                    <label for="dob">Data of Birth</label>
+                                    <input type="date" id="dob" name="dob">
+                                </div>
+                    </fieldset>
+                    
+                    
+                        <fieldset>
+                            <legend>Education Details</legend>
+                            <div>
+                            <label for="class">Class</label>
+                                <select name="class" id="class">
+                                    <option value="9">Class 9</option>
+                                    <option value="10">Class 10</option>
+                                    <option value="11">Class 11</option>
+                                    <option value="12">Class 12 </option>
+                                </select>
+                            </div>
+                            <div>
+                             <label for="institution">Institution Name</label>
+                             <input type="text" name="instituion" id="instituion">
+                            </div>
+                    </fieldset>
+    
+                        <fieldset>
+                            <legend>Course Enrollment Details</legend>
+                            <div>
+                                <label for="course">কোন কোন কোর্সে ভর্তি হতে চাঁচ্ছ</label>
+                                <input type="checkbox" name="hscict" id="course" value="HSCICT">HSC ICT
+                                <input type="checkbox" name="hscphysics" id="course" value="HSCPHYSICS" >HSC PHYSICS
+                                <input type="checkbox" name="hscmath" id="course" value="HSCMATH">HSC MATH
+                                
+                            </div>
+                            <div>
+                            <label for="payment">কোন মাধ্যমে পেমেন্ট করেছ?</label>
+                                <select name="payment" id="payment">
+                                    <option value="bkash">BKASH</option>
+                                    <option value="nagad">Nagad</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="paymentfrom">কোন নাম্বার থেকে টাকা পাঠিয়েছ?</label>
+                                <input type="tel" id="paymentfrom" name="paymentfrom" placeholder="+880-1XXXXXXX" pattern="+880-[0-9]{10}" required>
+                            </div>
+                             <div>
+                                 <label for="paymentamnt">কত টাকা পাঠিয়েছ?</label>
+                                 <input type="number" name="paymentamnt" id="paymentamnt" min="500" max="5000" value="999">
+                            </div>
+                        
+                    </fieldset>
+    
+                        
+                    
+                   
+                        <fieldset>
+                            <legend>Skills and Interests</legend>
+                            <div>
+
+                                <label for="skills">Choose Your Skills</label>
+                                <input type="checkbox" name="html" id="skills" value="HTML">HTML
+                                <input type="checkbox" name="css" id="skills" value="CSS" >CSS
+                                <input type="checkbox" name="php" id="skills" value="PHP">PHP
+                                <input type="checkbox" name="nodejs"id="skills" value="NODEJS">NODEJS
+                            </div>
+
+                        <div>
+                            <label for="confidence">Rate Your Confidence(between 0 and 10):</label>
+                            <input type="range" id="confidence" name="confidence" min="0" max="10"> 
+                        </div>
+                    </fieldset>
+                   
+
+                    
+                        <button type="submit" name="submit" value="register" class="button">Submit Informations</button>
+                    
+
+                    
+                </form>
+            </div>
+        </header>
+        <footer>
+            <a href="https://cutt.ly/Y0DjaxO">&rightarrow;Lets Purchase  Courses</a>
+        </footer>
+    </body>
+</html>

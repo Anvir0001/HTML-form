@@ -1,0 +1,91 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --bg-color:rgb(39 40 34);
+    --form-bg-color:rgb(0 42 56);
+
+}
+body {
+  width: 100%;
+  /* height: 100%; */
+  font-family: "Ubuntu", sans-serif,'Hind Siliguri';
+  background: rgb(98,57,69);
+  background: linear-gradient(99deg, rgba(98,57,69,1) 0%, rgba(26,49,87,1) 100%);
+}
+marquee{
+    /* font-weight: bold; */
+    font-size:150%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+
+}
+form{
+
+     color: #f1f1f1;
+    /* stext-align: center; */
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px 20px;
+    border: 2px solid #f1f1f1;
+}
+fieldset{
+    padding: 5px 10px;
+    margin:10px ;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    
+
+}
+input,input[type=date],select{
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    transition: box-shadow 0.5s ease;
+}
+input:focus {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+      0 1px 1px rgba(255, 255, 255, 0.2);
+  }
+  button{
+    color: #f1f1f1;
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.5s ease;
+    margin: 0 25%;
+  }
+  button:hover{
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    
+  }
+footer{
+text-align: center;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.2);
+}
